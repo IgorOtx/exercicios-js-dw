@@ -1,0 +1,7 @@
+function som(a, b) {
+    return a + b;
+}
+
+// Exemplos de uso:
+console.log(som(1, 2)); // Saída: 3
+console.log(som(3, 2)); // Saída: 5
