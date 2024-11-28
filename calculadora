@@ -1,0 +1,12 @@
+function cal(num1, num2, op) {
+    if (op === "+") return num1 + num2;
+    if (op === "-") return num1 - num2;
+    if (op === "*") return num1 * num2;
+    if (op === "/") return num1 / num2;
+    return "Operador inválido";
+}
+
+console.log(cal(1, 1, "+"));
+console.log(cal(1, 1, "-"));
+console.log(cal(1, 1, "*"));
+console.log(cal(1, 1, "/"));
